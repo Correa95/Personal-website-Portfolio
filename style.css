@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  width: 100%;
+  height: 60px;
+  background-color: #063970;
+  background-color: #fff;
+  border-bottom: 2px solid #333;
+}
+
+ul {
+  display: flex;
+  float: right;
+  margin-right: 100px;
+}
+
+li {
+  list-style: none;
+  margin-right: 15px;
+  color: #333;
+}
+
+.logo {
+  /* display: flex; */
+  margin-top: 30px;
+  padding: 0;
+  /* float: left; */
+  margin-left: 300px;
+  color: #333;
+}
+
+#hero {
+  height: 100vh;
+  background-color: #063970;
+}
+
+.intro {
+  font-size: larger bold;
+  margin-top: 250px;
+  margin-left: 300px;
+  line-height: 20px;
+}
+
+.job {
+  margin-top: 30px;
+  margin-left: 300px;
+}
+img {
+  display: block;
+  float: right;
+  margin-right: 200px;
+}
