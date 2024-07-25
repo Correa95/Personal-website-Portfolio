@@ -5,34 +5,42 @@
 }
 
 #hero {
-  /* height: 100vh; */
+  height: 100vh;
   background-color: #063970;
 }
 
 .navbar {
   width: 100%;
   height: 60px;
+  color: #fff;
   /* background-color: #063970; */
-  background-color: #fff;
-  border-bottom: 2px solid #333;
+  /* background-color: #fff; */
+  border-bottom: 2px solid #fff;
 }
 
 ul {
   display: flex;
-  float: right;
-  margin-right: 100px;
+  justify-content: center;
+  /* float: right; */
+  /* margin-right: 200px; */
+  color: #fff;
 }
 
 li {
   list-style: none;
   margin-right: 15px;
-  color: #333;
+  color: #fff;
+}
+a {
+  text-decoration: none;
+  list-style: none;
+  color: #ffc40c;
 }
 
 .logo {
-  margin-top: 30px;
+  /* margin-top: 30px; */
   margin-left: 300px;
-  color: #333;
+  color: #ffc40c;
 }
 
 .intro {
@@ -40,14 +48,101 @@ li {
   margin-top: 250px;
   margin-left: 300px;
   line-height: 20px;
+  color: #ffc40c;
 }
 
 .job {
   margin-top: 30px;
   margin-left: 300px;
+  color: #ffc40c;
 }
 
 img {
   float: right;
   margin-right: 200px;
+  border: 2px solid dotted #ffc40c;
+}
+
+/* About Page Styling */
+
+#about {
+  height: 100vh;
+  background-color: #063970;
+}
+
+.about-container {
+  height: 40%;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  margin-top: 30px;
+  border: 2px solid red;
+}
+.us {
+  color: #ffc40c;
+
+  font-size: 30px;
+  padding-bottom: 15px;
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.theme {
+  color: #ffc40c;
+
+  padding-bottom: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  color: #fff;
+  font-size: 22px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-container {
+  height: 300px;
+  margin-top: 20px;
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+}
+
+.soft {
+  margin-top: 20px;
+  margin-right: 15px;
+  padding-left: 20px;
+  border: 2px solid red;
+}
+
+.tech {
+  margin-top: 20px;
+  margin-left: 15px;
+  padding-left: 20px;
+  border: 2px solid red;
+}
+
+.header {
+  font-size: 35px;
+  color: #ffc40c;
+  padding: 20px 0 10px 0;
+}
+
+li {
+  font-size: 25px;
+  /* line-height: 30px; */
+  padding-bottom: 15px;
+}
+
+.material-symbols-outlined {
+  color: #ffc40c;
+  padding-right: 15px;
 }
