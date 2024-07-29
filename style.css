@@ -197,16 +197,16 @@ li {
 
 .title {
   color: #ffc40c;
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .description {
-  line-height: 10px;
-  display: inline;
+  /* margin-top: 10px; */
+  display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 
 /* ////////////////////////////////// */
@@ -224,7 +224,7 @@ li {
   justify-content: center;
 }
 
-form {
+#form {
   background-color: #fff;
   margin-top: 100px;
   border: 2px solid #ffc40c;
